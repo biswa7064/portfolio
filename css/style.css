@@ -138,7 +138,7 @@ img{
     .nav_menu{
         position: fixed;
         top: var(--header-height);
-        right: 0;
+        right: -100%;
         width: 70%;
         height: 100%;
         padding: 2rem;
@@ -187,4 +187,9 @@ img{
     left: 0;
     top: 2rem;
     background-color: var(--first-color);
+}
+
+/* show menu */
+.show{
+    right: 0;
 }
