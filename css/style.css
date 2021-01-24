@@ -9,8 +9,8 @@
 
 /*colors css*/
 :root{
-    --first-color:rgb(167, 167, 139);
-    --second-color:rgb(175, 216, 193);
+    --first-color:rgb(60, 106, 233);
+    --second-color:rgb(213, 210, 228);
 }
 
 /*font style*/
@@ -192,4 +192,56 @@ img{
 /* show menu */
 .show{
     right: 0;
+}
+
+/* Home */
+.home{
+    height: calc(100vh-3rem);
+    row-gap: 1rem;
+}
+.home_data{
+    align-self: center;
+}
+.home_title{
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-5);
+}
+.home_title-color{
+    color: var(--first-color);
+}
+.home_social{
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    
+}
+.home_social-icon{
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 2.5rem;
+    color: var(--second-color);
+}
+.home_social-icon:hover{
+    color: var(--first-color);
+}
+.home_img{
+    /* position: absolute; */
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 295px;
+}
+
+/* Button */
+
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: white;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+}
+.button:hover{
+    box-shadow: 0 10px 35px rgb(0, 0 , 0,.15);
 }
