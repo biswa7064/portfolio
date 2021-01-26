@@ -225,8 +225,8 @@ img{
     color: var(--first-color);
 }
 .home_img{
-    position: absolute;
-    /* position: relative; */
+    /* position: absolute; */
+    position: relative;
     right: 0;
     bottom: 30;
     width: 280px;
@@ -440,6 +440,7 @@ img{
     .home_img{
         width: 350px;
         bottom: 15%;
+        position:absolute;
     }
     .about_container ,.skills_container{
         grid-template-columns: repeat(2,1fr);
